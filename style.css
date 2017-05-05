@@ -4,12 +4,10 @@ body {
 div.imageBox {
     margin: 40;
     align: center;
-}
-div.textBox {
-    margin: 100;
-}
-img {
     border-width: 1px;
     margin:40;
     padding: 20;
+}
+div.textBox {
+    margin: 100;
 }
