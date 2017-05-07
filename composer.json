@@ -1,0 +1,23 @@
+{
+    "name": "chuntr-blog",
+    "description": "bloggity blog",
+    "license": "proprietary",
+    "type": "project",
+    "support": {
+        "source": "https://git01.corp.bigfishgames.com/Operations/cm-tool"
+        },
+    "authors": [
+        {
+            "name": "Christopher Hunter",
+            "email": "chunter@gmail.com"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "require": {
+        "php": ">=5.5.9",
+        "twig/twig": ">=1.18.2",
+        "neitanod/forceutf8": "dev-master"
+    }
+}
