@@ -1,14 +1,13 @@
 <?php
 
-    // get image file list
-    ob_start();
-    passthru("ls one-mc-show/images/*.jpg");
-    $indexList = ob_get_clean();
+    // get working dir
+    $workDir = getcwd();
+    $imageRoot = 'https://chunter.github.io/one-mc-show/images/';
 
     // setup Twig environment
-    $twig_autoloader_path = 'vendor/twig/twig/lib/Twig/Autoloader.php';
-    $twig_template_path = 'one-mc-show/templates';
-    $twig_cache_folder = 'cache';
+    $twig_autoloader_path = "$workDir/vendor/twig/twig/lib/Twig/Autoloader.php";
+    $twig_template_path = "$workDir/one-mc-show/templates";
+    $twig_cache_folder = "$workDir/cache";
     require_once $twig_autoloader_path;
     Twig_Autoloader::register();
 
@@ -17,17 +16,18 @@
     $twig = new Twig_Environment($loader,
                                  ['cache' => $twig_cache_folder]);
 
-    // read and render Twig template
-    $template = $twig->loadtemplate('one-mc-show/templates/index.twig');
-    $template->display($params);
 
-    $imageRoot = 'https://chunter.github.io/one-mc-show/images/';
-
-    $pageTitle = 'One MC Show';
-    $params = ['imageRoot' => $imageRoot,
-                'indexList' => $indexList ];
+    // get image file list
+    ob_start();
+    passthru("ls one-mc-show/images/*.jpg");
+    $indexList = ob_get_clean();
 
     // render PHP template
-    include __DIR__.'/one-mc-show/templates/index.twig';
-
-    echo $twig->render(params);
+    #include __DIR__.'/one-mc-show/templates/index.twig';
+    // read and render Twig template
+    $template = $twig->loadtemplate("index.twig");
+    $pageTitle = 'One MC Show';
+    $params = ['pageTitle' => $pageTitle,
+               'imageRoot' => $imageRoot,
+               'imageList' => $imageList ];
+    $template->display($params);
