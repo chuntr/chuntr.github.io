@@ -26,6 +26,6 @@
     $params = ['indexList' => $indexList];
 
     // render PHP template
-    include __DIR__.'/templates/index.phtml';
+    include __DIR__.'/one-mc-show/templates/index.phtml';
 
     echo $twig->render(params);
