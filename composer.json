@@ -9,7 +9,8 @@
     "authors": [
         {
             "name": "Christopher Hunter",
-            "email": "chunter@gmail.com"
+            "email": "chunter@gmail.com",
+            "role": "Lead Developer"
         }
     ],
     "config": {
@@ -17,7 +18,7 @@
     },
     "require": {
         "php": ">=5.5.9",
-        "twig/twig": ">=1.18.2",
+        "twig/twig": "~1.0",
         "neitanod/forceutf8": "dev-master"
     }
 }

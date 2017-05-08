@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "a2c0b3cc7dd7b5964a93996ca63c1947",
+    "content-hash": "a0fd8eb23898f7e60aee3ebf44636ded",
     "packages": [
         {
             "name": "neitanod/forceutf8",

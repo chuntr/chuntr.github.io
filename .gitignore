@@ -1,1 +1,4 @@
-vendor/*
+build.sh
+vendor
+cache/*
+

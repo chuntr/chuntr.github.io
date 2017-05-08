@@ -1,13 +1,15 @@
 body {
     margin: auto;
 }
-div.imageBox {
-    margin: 40;
+div.container {
     align: center;
-    border-width: 1px;
-    margin:40;
-    padding: 20;
 }
 div.textBox {
     margin: 100;
+}
+div.imageBox {
+    margin: 40;
+    border-width: 1px;
+    margin:40;
+    padding: 20;
 }
