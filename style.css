@@ -5,6 +5,7 @@ div.container {
     align: center;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
 }
 div.textBox {
     margin: 100;
