@@ -1,18 +1,18 @@
 body {
     margin: auto;
 }
-div.container {
+.container {
     align: center;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
 }
-div.textBox {
+.textBox {
     margin: 100;
 }
-div.imageBox {
-    margin: 40;
+.imageBox {
+    margin: 40px;
     border-width: 1px;
-    margin:40;
-    padding: 20;
+    margin: 40px;
+    padding: 20px;
 }
