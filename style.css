@@ -7,13 +7,14 @@ body {
     text-align: center;
     width: 100%;
 }
+.main {
+    margin-left: 100px;
+}
 .textBox {
     display: inline-block;
-    margin: 100px;
 }
 .imageBox {
     border-width: 1px;
     display: inline-block;
-    margin: 40px;
     padding: 20px;
 }
