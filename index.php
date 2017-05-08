@@ -2,7 +2,7 @@
 
     // get working dir
     $workDir = getcwd();
-    $imageRoot = 'https://chunter.github.io/one-mc-show';
+    $imageRoot = 'https://chuntr.github.io/one-mc-show';
 
     // setup Twig environment
     $twig_autoloader_path = "$workDir/vendor/twig/twig/lib/Twig/Autoloader.php";
