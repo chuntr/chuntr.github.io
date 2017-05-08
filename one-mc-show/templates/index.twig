@@ -12,14 +12,15 @@
       <div class="textBox">
         Images from the 2017 One Motorcycle show in Portland, OR
       </div>
-      </br>
-        {% for img in imageList -%}
-        <div class="imageBox">
-          <a href="{{ imageRoot }}/images/{{ img }}">
-            <img src="{{ imageRoot }}/images/{{ img }}"
-                 height="480" width="640" alt="{{ img }}">
-          </a>
-        </div>
+      {% for img in imageList -%}
+       <div class="imageBox" id="{{ img }}">
+        <a href="{{ imageRoot }}/images/{{ img }}.jpg">
+          <img src="{{ imageRoot }}/images/{{ img }}.jpg"
+                 height="480" width="640" alt="{{ img }}.jpg">
+        </a>
+      </div>
+      <div class="textBox" id="{{ img }}">
+      </div>
         {% endfor -%}
     </div>
   </body>

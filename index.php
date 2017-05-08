@@ -2,7 +2,7 @@
 
     // get working dir
     $workDir = getcwd();
-    $imageRoot = 'https://chunter.github.io/one-mc-show/images/';
+    $imageRoot = 'https://chunter.github.io/one-mc-show';
 
     // setup Twig environment
     $twig_autoloader_path = "$workDir/vendor/twig/twig/lib/Twig/Autoloader.php";
@@ -22,6 +22,10 @@
     // get image file list
     //$imageList = scandir("one-mc-show/images/*.jpg");
     $imageList = glob("$workDir/one-mc-show/images/IMG*.jpg", GLOB_ERR);
+    foreach ($imageList as $key => $value) {
+        $imageList[$key] = basename($imageList[$key]);
+        $imageList[$key] = str_replace(".jpg","",$imageList[$key]);
+    }
 
     // read and render Twig template
     $template = $twig->loadtemplate("index.twig");
