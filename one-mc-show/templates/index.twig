@@ -8,17 +8,19 @@
     <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.cs/s">
   </head>
   <body>
-    <div class="imageBox">
+    <div class="containter">
       <div class="textBox">
         Images from the 2017 One Motorcycle show in Portland, OR
       </div>
       </br>
         {% for img in imageList -%}
-
-        <a href="{{ imageRoot }}/images/{{ img }}">
-          <img src="{{ imageRoot }}/images/{{ img }}"
-               height="480" width="640" alt="{{ img }}">
-        </a>
+        <div class="imageBox">
+          <a href="{{ imageRoot }}/images/{{ img }}">
+            <img src="{{ imageRoot }}/images/{{ img }}"
+                 height="480" width="640" alt="{{ img }}">
+          </a>
+        </div>
         {% endfor -%}
+    </div>
   </body>
 </html
