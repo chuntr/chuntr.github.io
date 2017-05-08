@@ -1,5 +1,8 @@
 <?php
 
+    require_once("descriptions.php");
+
+
     // get working dir
     $workDir = getcwd();
     $imageRoot = 'https://chuntr.github.io/one-mc-show';
@@ -30,7 +33,8 @@
     // read and render Twig template
     $template = $twig->loadtemplate("index.twig");
     $pageTitle = 'One MC Show';
-    $params = ['pageTitle' => $pageTitle,
-               'imageRoot' => $imageRoot,
-               'imageList' => $imageList ];
+    $params = [ 'descriptions' => $descriptions,
+                'imageRoot' => $imageRoot,
+                'imageList' => $imageList,
+                'pageTitle' => $pageTitle, ];
     $template->display($params);
