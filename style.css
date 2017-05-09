@@ -19,8 +19,8 @@ body {
 }
 .centered-horizontal {
     position: relative;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 25%;
+    transform: translateX(-25%);
 }
 .centered-vertical {
     position: relative;
