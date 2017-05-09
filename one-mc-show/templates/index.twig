@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="Content-type" value="text/html; charset=UTF-8" />
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.cs/s">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
   </head>
   <body class="centered-horizontal">
     <div class="container" style="text-align: center">
@@ -20,12 +20,11 @@
                height="480" width="640" alt="{{ imgKey }}.jpg">
         </a>
         </br>
+        <div class="textBox" id="{{ imgKey }}">
+          {{ descriptions[imgKey] }}
+        </div>
       </div>
-      <div class="textBox" id="{{ imgKey }}">
-        {{ descriptions[imgKey] }}
-        </br>
-      </div>
-        {% endfor -%}
+    {% endfor -%}
     </div>
   </body>
 </html
