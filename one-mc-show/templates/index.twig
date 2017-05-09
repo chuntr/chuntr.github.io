@@ -8,23 +8,26 @@
     <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
   </head>
   <body class="centered-horizontal">
-    <div class="container" style="text-align: center">
-      <div class="textBox header">
-        Images from the <a href="http://the1moto.com/">2017 One Motorcycle show in Portland, OR</a>
-        </br></br><hr>
-      </div>
-      {% for imgKey in imageList -%}
-      <div class="imageBox" id="{{ imgKey }}">
-        <a href="{{ imageRoot }}/images/{{ imgKey }}.jpg">
-          <img src="{{ imageRoot }}/images/{{ imgKey }}.jpg"
-               height="480" width="640" alt="{{ imgKey }}.jpg">
-        </a>
-        </br>
-        <div class="textBox" id="{{ imgKey }}">
-          {{ descriptions[imgKey] }}
+    <article>
+      <div class="container" style="text-align: center">
+        <div class="textBox header">
+          <header>
+            <h1>Images from the <a href="http://the1moto.com/">2017 One Motorcycle show in Portland, OR</a></h1>
+          </header>
         </div>
+        {% for imgKey in imageList -%}
+        <div class="imageBox" id="{{ imgKey }}">
+          <a href="{{ imageRoot }}/images/{{ imgKey }}.jpg">
+            <img src="{{ imageRoot }}/images/{{ imgKey }}.jpg"
+                 height="480" width="640" alt="{{ imgKey }}.jpg">
+          </a>
+          </br>
+          <div class="textBox" id="{{ imgKey }}">
+          {{ descriptions[imgKey] }}
+          </div>
+        </div>
+        {% endfor -%}
       </div>
-    {% endfor -%}
-    </div>
+    </article>
   </body>
 </html
