@@ -10,7 +10,7 @@ A:active {
 }
 A:hover {
     text-decoration: underline;
-    color: white;
+    color: gray;
 }
 body {
     margin: 0 auto;
