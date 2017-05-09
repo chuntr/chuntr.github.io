@@ -56,5 +56,5 @@ $descriptions = [
 guy who was the father of the owner, and he said the guy used to drive it across the desert all the time.",
     "IMG_20170211_150636" => "Vespa radiator detail",
     "IMG_20170211_150719" => "Extravagent leather work on the Vespa seat.",
-    "IMG_20170211_151032" => "Tight little Suzuki scrambler",
+    "IMG_20170211_151032" => "Sweet little Suzuki scrambler",
     "IMG_20170211_151944" => "Yamaha XS650 chopper - The \"What's wrong with this picture\" bike"];
