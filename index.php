@@ -19,12 +19,12 @@
                                  #['cache' => $twig_cache_folder,
 
                              ]);
-    #include __DIR__.'/one-mc-show/templates/index.twig';
-
 
     // get image file list
-    //$imageList = scandir("one-mc-show/images/*.jpg");
     $imageList = glob("$workDir/one-mc-show/images/IMG*.jpg", GLOB_ERR);
+
+    // take the basename of each image name, remove the '.jpg', and make
+    // that the list key
     foreach ($imageList as $key => $value) {
         $imageList[$key] = basename($imageList[$key]);
         $imageList[$key] = str_replace(".jpg","",$imageList[$key]);
