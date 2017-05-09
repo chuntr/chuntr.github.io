@@ -39,9 +39,10 @@ body {
 }
 .textBox {
     font-size: 20px;
-    text-align: left;
     display: inline-block;
     margin: 25px;
+    max-width: 590px;
+    text-align: left;
 }
 .title {
     width: 100%;

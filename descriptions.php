@@ -51,7 +51,7 @@ $descriptions = [
     "IMG_20170211_145000" => "1981 Yamaha XS650 cafe racer. Bummed I didn't get a better shot of this one.",
     "IMG_20170211_150253" => "Another great looking scramber",
     "IMG_20170211_150335" => "Electric supermoto? We are living in the future for sure.",
-    "IMG_20170211_150540" => "1981 Husqvarna. Interesting radiator relocation on the front bars.",
+    "IMG_20170211_150540" => "1981 Husqvarna. Interesting radiator relocation to below the front bars.",
     "IMG_20170211_150611" => "This 235cc Vespa was awesome. Water cool conversion, beefy suspension mods. Talked to a
 guy who was the father of the owner, and he said the guy used to drive it across the desert all the time.",
     "IMG_20170211_150636" => "Vespa radiator detail",
