@@ -1,4 +1,17 @@
-
+A:link {
+    text-decoration: none;
+    underline;
+    color: black}
+A:visited {
+    text-decoration: none;
+    color: black}
+A:active {
+    text-decoration: none
+}
+A:hover {
+    text-decoration: underline;
+    color: white;
+}
 body {
     margin: 0 auto;
 }
@@ -9,9 +22,10 @@ body {
     width: 100%;
 }
 .textBox {
+    font-size:
+    text-align: left;
     display: inline-block;
     margin: 25px;
-    padding-bottom: 25px;
 }
 .imageBox {
     border: solid 1px #000;
