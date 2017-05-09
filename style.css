@@ -4,7 +4,6 @@ body {
 .container {
     margin-left: 0 auto;
     margin-right: 0 auto;
-    text-align: center;
     width: 100%;
 }
 .main {
@@ -17,4 +16,14 @@ body {
     border-width: 1px;
     display: inline-block;
     padding: 20px;
+}
+.centered-horizontal {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.centered-vertical {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
