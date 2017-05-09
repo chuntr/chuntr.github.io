@@ -11,12 +11,12 @@ body {
 }
 .textBox {
     display: inline-block;
-    margin: 50px;
+    margin: 25px;
 }
 .imageBox {
-    border-width: 1px;
+    border: solid 1px #000;
     display: inline-block;
-    margin: 50px;
+    margin: 25px;
     padding: 20px;
 }
 .centered-horizontal {
