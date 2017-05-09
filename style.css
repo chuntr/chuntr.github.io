@@ -1,6 +1,9 @@
 body {
     margin: 0 auto;
 }
+div {
+    font-family: Helvetica, Arial;
+}
 .container {
     margin-left: 0 auto;
     margin-right: 0 auto;
@@ -11,10 +14,12 @@ body {
 }
 .textBox {
     display: inline-block;
+    margin: 50px;
 }
 .imageBox {
     border-width: 1px;
     display: inline-block;
+    margin: 50px;
     padding: 20px;
 }
 .centered-horizontal {
