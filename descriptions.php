@@ -1,7 +1,7 @@
 <?php
 
 $descriptions = [
-    "IMG_20170211_132214" => "Cherry old Honda scrambler",
+    "IMG_20170211_132214" => "Old Honda scrambler",
     "IMG_20170211_132749" => "Check the front internal monoshock on this BMW",
     "IMG_20170211_134029" => "2007 Reeg GP - Moto Madness",
     "IMG_20170211_134518" => "Kawasaki Vulcan 650 S - HELL AWAITS",
