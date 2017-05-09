@@ -15,24 +15,6 @@ A:hover {
 body {
     margin: 0 auto;
 }
-.container {
-    font-family: Helvetica, Arial;
-    margin-left: 0 auto;
-    margin-right: 0 auto;
-    width: 100%;
-}
-.textBox {
-    font-size:
-    text-align: left;
-    display: inline-block;
-    margin: 25px;
-}
-.imageBox {
-    border: solid 1px #000;
-    display: inline-block;
-    margin: 25px;
-    padding: 20px;
-}
 .centered-horizontal {
     position: relative;
     left: 25%;
@@ -42,4 +24,26 @@ body {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+}
+.container {
+    font-family: Helvetica, Arial;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    width: 100%;
+}
+.imageBox {
+    border: solid 1px #000;
+    display: inline-block;
+    margin: 25px;
+    padding: 20px;
+}
+.textBox {
+    font-size: 20px;
+    text-align: left;
+    display: inline-block;
+    margin: 25px;
+}
+.title {
+    width: 100%;
+    font-size: 30px;
 }
