@@ -1,5 +1,7 @@
+
 body {
     margin: 0 auto;
+    min-width: 1300px;
 }
 div {
     font-family: Helvetica, Arial;
