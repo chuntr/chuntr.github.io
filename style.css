@@ -12,6 +12,7 @@ body {
 .textBox {
     display: inline-block;
     margin: 25px;
+    padding-bottom: 25px;
 }
 .imageBox {
     border: solid 1px #000;
